@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>	Contact Us</title>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  
+</head>
+<body>
+	
+	
+<div class="container">
+<img src="razzo logo.jpg" width="150px" height="100px" align="left">
+
+
+<div class="icons">
+   <a href="https://www.facebook.com/Razzomall" target="_blank">
+<img src="FACEBOOK ICON.png" width="40px" height="40px"  style=" float:right; text-align:right;  ; padding-top:5px">
+</a>
+<a href="https://www.instagram.com/razzomall/" target="_blank">
+<img src="insta.jpg" width="40px" height="40px"  style=" float:right; text-align:right;  ; padding-top:5px">
+</a>
+</div>
+</div>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li style="padding-left:250px" class="nav-item active">
+        <a class="nav-link" href="razzomall.php" style="">Home </a>
+      </li>
+	  
+	   <li class="nav-item active">
+        <a class="nav-link" href="aboutUs.html">About Us </a>
+      </li>
+	  
+	   <li class="nav-item active">
+        <a class="nav-link" href="ourProducts.html">Products </a>
+      </li>
+	  
+	   <li class="nav-item active">
+        <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+      </li>
+	  </ul>
+	  
+	  	   <li class="nav-item active">
+        <a class="nav-link" href="login.php">Login </a>
+      </li>
+	  </ul>
+	  
+  </div>
+</nav>
+</nav>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Contact Us Page</title>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUOEEEI_y7YP5yq3PWKJ5ChNfRNmleSgA&callback=initMap&libraries=&v=weekly" defer ></script>
+ <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 31.537782, lng: 74.34775 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <form method="post">
+                    <label> Name: </label>
+                    <input class="form-control" type="text" name="first-name" id="first-name"> <br>
+                    <label> Email: </label>
+                    <input class="form-control" type="email" name="email"> <br>
+                    <label> Phone: </label>
+                    <input class="form-control" type="number" name="phone"> <br>
+                    <label> Role: </label>
+                   Employee  <input class="" type="radio" name="student" value=" Employee ">
+                    Customer <input class="" type="radio" name="student" value="Customer"> <br>
+                    City: <select class="form-control">
+                        <option value="lahore" selected> Lahore </option>
+                        <option value="Multan"> Multan </option>
+                        <option value="Islamabad "> Toba Tek Singh</option>
+                    </select> <br>
+                    Message: <br>
+                    <textarea class="form-control" col="20" rows="5"></textarea> <br>
+                    <input class="btn btn-success" type="submit" name="submit" value="submit">
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h1>Contact Info</h1>
+                <p>
+Office 17, 4th Floor Al Hafeez View Liberty Commercial Zone Gulberg III Lahore, Pakistan
+                </p>
+				
+				<div id="map" style="width:100%;height:300px;"></div>
+            </div>
+        </div>
+
+      
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+   <div class="footer"  style="height:100px; width:100%; background-color:#ed9194; ">
+<div class="icons" style=" float:right; padding-top:50px; padding-right: 5px;">
+   <a href="https://www.facebook.com/Razzomall">
+<img src="FACEBOOK ICON.png" width="40px" height="40px"  style=" text-align:right;   padding-top:5px">
+</a>
+<a href="https://www.instagram.com/razzomall/">
+<img src="insta.jpg" width="40px" height="40px"  style=" text-align:right;   padding-top:5px">
+</a>
+</div>
+ <div style="text-align: center">
+            <p>
+               © RAZZO - All Rights Reserved @2020 <br>
+            Contact Info <br>
+			Office 17, 4th Floor Al Hafeez View Liberty Commercial Zone Gulberg III Lahore, Pakistan
+            </p>
+        </div>
+</div>
+</body>
+
+</html>
